@@ -1,0 +1,53 @@
+/* styles for my resume */
+
+/* everything */
+body {
+  font-family: open sans, arial, sans-serif;
+  font-size: 1em;
+  color:#444;
+}
+
+/* name banner at top */
+h1 {
+  font-size: 3.5em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* title (multimedia journalist) */
+strong {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #33485e;
+}
+
+/* section titles */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+}
+
+/* job titles */
+h3 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+/* organization titles */
+h4 {
+  font-size: 1.5em;
+}
+
+/* dates */
+h5 {
+  font-style: italic;
+  font-size: 1em;
+}
+
+/* contact info, education, skills */
+ul {
+  font-size: 1em;
+}
