@@ -79,7 +79,11 @@ ul {
   padding: 0px;
   text-align: center;
   display: inline;
-  margin: auto;
+}
+
+.table {
+  margin: 0 auto;
+  display: table;
 }
 
 #degrees {
