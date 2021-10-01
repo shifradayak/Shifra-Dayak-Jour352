@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   padding-bottom: 50px;
 }
+
 /* name banner at top */
 #name {
   font-size: 3.5em;
@@ -26,41 +27,72 @@ body {
 }
 
 /* title (multimedia journalist) */
-strong {
+#title {
   text-transform: uppercase;
   font-size: 2em;
   color: #33485e;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 
 /* section titles */
-#sectionheader {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
-  margin: 20px, 0px, 10px, 0px;
+  margin: 20px 0px 10px 0px;
   width: 70%;
   min-width: 300px;
 }
 
 /* job titles */
-#jobtitle {
+.jobtitle {
   font-weight: 600;
   font-size: 2em;
 }
 
 /* organization titles */
-h4 {
+.organization {
   font-size: 1.5em;
 }
 
 /* dates */
-h5 {
+.date {
   font-style: italic;
   font-size: 1em;
+  margin: 3px 0px 0px 0px;
+}
+
+.description {
+  margin: 10px 0px 10px 0px;
 }
 
 /* contact info, education, skills */
 ul {
   font-size: 1em;
+}
+
+.menu li {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
+  margin: auto;
+}
+
+#degrees {
+  margin: 5px 0px 0px 0px;
+}
+
+#do {
+  margin: 5px 0px 0px 0px;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
