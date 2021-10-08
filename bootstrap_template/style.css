@@ -1,0 +1,50 @@
+/*styles for skate magazine*/
+
+.btn {
+  margin-top: 25px;
+  font-family: 'Special Elite';
+}
+
+.col-md-6 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-md-4 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bi {
+  font-size: 3em;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+.navbar-brand {
+  font-family: 'Special Elite';
+}
+
+h1 {
+  font-family: 'Special Elite';
+}
+
+h2 {
+  font-family: 'Special Elite';
+}
+
+h3 {
+  font-family: 'Special Elite';
+}
+
+@media only screen and (max-width: 500px) {
+
+  h2 {
+    padding-top: 20px;
+  }
+  .btn {
+    background-color: teal !important;
+  }
+}
