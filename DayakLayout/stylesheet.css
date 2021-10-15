@@ -1,0 +1,69 @@
+#masthead {
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+  width: 99%;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+  display: block;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#byline {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.photos {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.captions {
+  text-align: left;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#graphictitle {
+  font-family: Georgia, serif;
+  text-align: left;
+  font-style: bold;
+  font-size: 20px;
+}
+
+#graphic {
+  width: 900px;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-style: bold;
+  font-size: 25px;
+  padding: 2px;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
