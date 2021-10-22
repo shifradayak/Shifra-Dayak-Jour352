@@ -1,0 +1,70 @@
+/*Headline*/
+h1 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  padding: 5px;
+}
+
+/*Main body text*/
+p {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 12px;
+  padding: 4px;
+}
+
+/*Subheadings*/
+h2 {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  padding: 5px;
+  color: navy;
+}
+
+/*Masthead at top*/
+#masthead {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/*All images in story*/
+.images {
+  max-width: 100%;
+  margin: 0 auto
+  padding: 20px;
+}
+
+/*All image captions in story*/
+.caption {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  padding: 10px;
+}
+
+/*Div that wraps around all content and centers it/sets width*/
+#content {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/*Byline and publication date*/
+#byline {
+  font-family: Georgia, serif;
+  font-size: 15px;
+}
+
+/*Related item hyperlinks*/
+a {
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 12px;
+}
+
+/*Pull quote*/
+blockquote {
+  font-size: 25px;
+  text-align: center;
+  color: navy;
+  max-width: 80%;
+  font-weight: bold;
+  margin: 0 auto;
+}
