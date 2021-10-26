@@ -4,10 +4,19 @@
 
 <head>
 
-  <title> Shifra Dayak's Resume </title>
+  <title> Shifra Dayak's Portfolio </title>
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700"
-  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -16,36 +25,73 @@
 
 <body>
 
-  <div id="container">
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Shifra Dayak</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#aboutme">About Me <span class="sr-only"> </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Work Samples</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
 
-    <div id="name"> Shifra Dayak </div>
 
-<!--
-  <img src= "headshot.jpg" width="300" >
--->
-
-<!-- Contact info -->
-
-  <div class="table">
-  <ul class="menu">
-    <li> shifrandayak@gmail.com </li>
-    <li> <a href= "https://www.linkedin.com/in/shifra-dayak-2762b5161/" target="_blank">Linkedin</a> </li>
-    <li> <a href= "https://twitter.com/shifradayak" target="_blank">Twitter</a> </li>
-    <li> <a href= "https://shifradayak.github.io/shifra-dayak-jour352/" target="_blank">GitHub</a> </li>
-  </ul>
+<!-- Masthead -->
+  <div id="masthead">
+    <img src="resumemasthead.png" height=180 width=900>
   </div>
 
-<!-- Title -->
-  <div id="title"> Journalist </div>
+<!-- Div wrapping around everything-->
+  <div id="container">
+
+<!-- First row with picture and bio -->
+  <div id="aboutme">
+    <div class="row">
+      <div class="col-3">
+        <img src="headshot.jpg" class="rounded-circle">
+      </div>
+      <div class ="col-9">
+        <h2> About Me </h2>
+        <p class="description"> I'm a journalist and second-year student studying journalism and environmental science. I have experience with breaking news, enterprise stories, video journalism and design. I'm looking for opportunities to use those mediums to tell stories about my passions — environmental justice, health, labor issues and more, while highlighting diverse voices and untold perspectives. Feel free to check out my page and reach out to me with any questions! </p>
+        <p>
+          <i class="bi bi-linkedin"></i>
+          <a href= "https://www.linkedin.com/in/shifra-dayak-2762b5161/" target="_blank"> Linkedin | </a>
+          <i class="bi bi-twitter"></i>
+          <a href= "https://twitter.com/shifradayak" target="_blank">  Twitter | </a>
+          <i class="bi bi-github"></i>
+          <a href= "https://shifradayak.github.io/shifra-dayak-jour352/" target="_blank"> GitHub </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+<!-- Resume section -->
 
   <br>
-
-<!-- Description -->
-  <p class="top"> I am a student journalist with experience in reporting and writing, videography and social media.
-    I've reported on environmenal issues, local politics and labor issues and am interested in conveying
-    important issues like these through multimedia. </p>
+  <br>
+  <h2> Resumé </h2>
 
 <!-- Experience -->
+
+  <div id="experience">
+
   <div class="sectionheader"> Experience </div>
 
     <div class="jobtitle"> Staff Writer </div>
@@ -76,24 +122,52 @@
     <p class="description"> I wrote a feature article on food waste in New York City, interviewing experts in environmental
        justice and culinary strategies. The article was syndicated by Tribune News Service. </p>
 
-<!-- Education -->
-  <div class="sectionheader"> Education </div>
-    <ul id="degrees">
-      <li> B.A., Journalism and Environmental Science and Policy,
-        University of Maryland, May 2024 </li>
-      <li> High school diploma, Montgomery Blair High School
-        (Communication Arts Program), June 2020 </li>
-    </ul>
+    </div>
 
 <!-- Skills -->
-  <div class="sectionheader"> Skills </div>
-    <ul id="do">
-      <li> Video editing with Final Cut Pro X and
-        Adobe Premiere Pro </li>
-      <li> Graphic design with Canva, Adobe Illustrator
-        and Adobe Photoshop </li>
-      <li> Feature and news writing </li>
-    </ul>
+
+  <div id="skills">
+
+    <div class="sectionheader"> Skills </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="do">
+          <li> Final Cut Pro X </li>
+          <li> Adobe Premiere Pro </li>
+          <li> DSLR and broadcast cameras </li>
+          <li> Canva </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="do">
+          <li> Adobe Illustrator </li>
+          <li> HTML/CSS </li>
+          <li> News and feature writing </li>
+          <li> Copyediting </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Education -->
+
+  <div id="education">
+
+  <div class="sectionheader"> Education </div>
+
+    <div class="jobtitle"> B.A., Journalism and Environmental Science and Policy </div>
+    <div class="organization"> University of Maryland </div>
+    <div class="date"> Expected May 2024 </div>
+    <p class="description"> Involvement: The Diamondback, South Asian Student Association, Her Campus Maryland, Honors Humanities </p>
+
+    <div class="jobtitle"> High School Diploma </div>
+    <div class="organization"> Montgomery Blair High School (Communication Arts Program) </div>
+    <div class="date"> June 2020 </div>
+
+  </div>
+
 
   </div>
 
