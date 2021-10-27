@@ -1,0 +1,117 @@
+
+.navbar {
+  font-family: "Lato", "sans-serif";
+  color: #42331B;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#masthead {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#container {
+  width: 1080px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.rounded-circle {
+  float: right;
+  max-width: 80%;
+  margin-right: 50px;
+  border: 5px solid #5F8575;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  text-align: left;
+  color: #5F8575;
+  font-weight: bold;
+}
+
+a {
+  font-family: "Lato", "sans-serif";
+  font-weight: bold;
+}
+
+.bi {
+  font-size: 2em;
+}
+
+.sectionheader {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: #42331B;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.jobtitle {
+  font-family: "Lato", "sans-serif";
+  font-weight: bold;
+  color: #5F8575;
+  font-size: 23px;
+}
+
+.organization {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #42331B;
+}
+
+.date {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #5F8575;
+}
+
+.description {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.do {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.workimg {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.worklink {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 18px;
+}
+
+.workdate {
+  font-family: "Lato", "sans-serif";
+  text-align: center;
+  color: #5F8575;
+  font-size: 17px;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+#footer {
+  font-family: "Lato", "sans-serif";
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
