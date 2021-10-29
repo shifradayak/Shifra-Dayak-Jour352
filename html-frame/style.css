@@ -1,0 +1,72 @@
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.headline {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.byline {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.chapterheadline {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 2em;
+  text-align: left;
+  font-weight: bold;
+}
+
+.chaptertext {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.caption {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+img {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.row {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.col-md-4 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.columntext {
+  text-align: center;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 1em;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-family: 'Montserrat', 'sans-serif';
+}
