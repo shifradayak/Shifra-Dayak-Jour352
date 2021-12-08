@@ -178,6 +178,34 @@ img {
   padding: 15px 0px 15px 0px;
 }
 
+/*Styling for sidebar with costs*/
+
+.card {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+}
+
+.card-header {
+  text-align: center;
+  color: black;
+  background-color: #B6D0E2;
+}
+
+.card-title {
+  font-family: "Playfair Display", serif;
+}
+
+.card-item-beginning {
+  font-weight: bold;
+  color: #black;
+}
+
+.sidebar-attribution {
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+}
+
 /*Styling for contributing line*/
 
 .contributing {
