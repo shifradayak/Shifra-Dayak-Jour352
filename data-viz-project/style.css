@@ -1,14 +1,188 @@
-h1 {
-  font-size: 30px;
+/*Styling for tophat*/
+
+.hero-image {
+  max-width: 100%;
+  opacity: .5;
+  z-index: 85;
+}
+
+.overlay {
+  position: absolute;
+  width: 80%;
+  top: 30%;
+  left: 10%;
+  margin: 0 auto;
   text-align: center;
-  padding: 30px;
-  font-family: "Helvetica", "sans-serif";
+}
+
+.hero-hed {
+  font-family: "Playfair Display", serif;
+  font-size: 5em;
   text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.hero-sub {
+  font-family: "Playfair Display", serif;
+  font-size: 3em;
   font-weight: bold;
 }
 
-.graphic {
+hr {
+  color: #B6D0E2;
+  background-color: #B6D0E2;
+  border: solid 5px;
+  height: 5px;
+  width: 80%;
   margin: 0 auto;
+  z-index: 100;
+  opacity: 1;
+}
+
+.bi {
+  z-index: 100;
+  opacity: 1;
+  top: 90%;
+  font-size: 10em;
+}
+
+.banner-caption {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+/*End styling for tophat*/
+
+/*Styling for links (including ones that are buttons)*/
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+/* mouse over link */
+a:hover {
+  color: #B6D0E2;
+}
+
+/*Styling for container that wraps around everything below tophat*/
+
+#container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/*Styling for headline*/
+
+.headline {
+  font-family: "Playfair Display", serif;
+  padding-top: 30px;
+  font-size: 3em;
+}
+
+/*Styling for byline*/
+
+.byline {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/*Styling for date*/
+
+.date {
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+}
+
+
+/*Styling for story text*/
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.1em;
+}
+
+/*Styling for graphics*/
+
+.col-md {
+  padding: 10px;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*Styling for images*/
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Styling for video*/
+
+.video-container {
+  padding: 10px;
+  display: block;
+  max-width: 63%;
+  margin: 0 auto;
+}
+
+/*Styling for caption*/
+
+.caption {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+/*Styling for pull quote*/
+.quote {
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
   max-width: 80%;
-  padding-bottom: 80px;
+  margin: 0 auto;
+  border-top: 5px solid #B6D0E2;
+}
+
+.quote-attribution {
+  font-size: 1em;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 180;
+  text-align: center;
+  margin: 0 auto;
+  color: #000;
+  background-color: white;
+  max-width: 80%;
+  border-bottom: 5px solid #B6D0E2;
+  padding: 15px 0px 15px 0px;
+}
+
+/*Styling for contributing line*/
+
+.contributing {
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
 }

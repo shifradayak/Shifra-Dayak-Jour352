@@ -1,50 +1,351 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- CSS stylesheet -->
-    <link href="style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Everest infographics</title>
-  </head>
-  <body>
+  <!-- CSS stylesheet -->
+  <link href="style.css" rel="stylesheet">
 
-    <h1> Data visualizations for final project </h1>
+  <!--Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
-    <div class="graphic">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
-      <iframe title="Deaths on Mt. Everest by year (2009-2019)" aria-label="Interactive line chart" id="datawrapper-chart-HLfAY" src="https://datawrapper.dwcdn.net/HLfAY/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="328"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-      </script>
+  <!--Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
+  <title> As hopeful summiters crowd Everest, danger looms </title>
+</head>
+
+<body>
+
+<!--Tophat-->
+
+  <div class="hero-container">
+    <img src="images/tophat.jpeg" class="hero-image" alt="Mt. Everest shrouded in clouds">
+    <div class="overlay">
+      <hr>
+      <div class="hero-hed"> A deadly journey </div>
+      <div class="hero-sub"> As hopeful summiters crowd <br> Everest, danger looms
+      </div>
+      <br>
+      <hr>
+      <a href="#storystart"> <i class="bi bi-chevron-compact-down"> </i> </a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="banner-caption"> Banner image: Mt. Everest, the highest point on Earth (Barry Bishop | National Geographic)</p>
+    </div>
+  </div>
+
+<!--Open container that wraps everything below tophat-->
+
+  <div id="container">
+
+<!--Headline -->
+
+    <p class="headline" id="storystart"> ‘It Was Like a Zoo’: Death on an Unruly, Overcrowded Everest </p>
+
+<!--Byline-->
+
+    <p class="byline"> By Kai Schultz, Jeffrey Gettleman, Mujib Mashal and Bhadra Sharma </p>
+
+<!-- Date -->
+
+    <p class="date"> May 26, 2019 </p>
+
+<!-- Image of Ed Dohring (image 1 of 4) -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/eddohring.jpeg" alt="Mountaineer Ed Dohring stands on Mt. Everest in a blue snowsuit with a line of climbers behind him">
+
+        <p class="caption"> Arizonan mountaineer Ed Dohring poses on Mt. Everest after summitting in 2019 (Ed Dohring)</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Story -->
+
+    <p> NEW DELHI — Ed Dohring, a doctor from Arizona, had dreamed his whole life of reaching the top of Mount Everest. But when he summited a few days ago, he was shocked by what he saw. </p>
+
+    <p> Climbers were pushing and shoving to take selfies. The flat part of the summit, which he estimated at about the size of two Ping-Pong tables, was packed with 15 or 20 people. To get up there, he had to wait hours in a line, chest to chest, one puffy jacket after the next, on an icy, rocky ridge with a several-thousand foot drop. </p>
+
+    <p> He even had to step around the body of a woman who had just died. </p>
+
+    <p> “It was scary,” he said by telephone from Kathmandu, Nepal, where he was resting in a hotel room. “It was like a zoo.” </p>
+
+    <p> This has been one of the deadliest climbing seasons on Everest, with at least 11 deaths. And at least some seem to have been avoidable. </p>
+
+<!--Graphic on causes of death-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <iframe title="Causes of death in Himalayas (1950-2009)" aria-label="Pie Chart" id="datawrapper-chart-guUSb" src="https://datawrapper.dwcdn.net/guUSb/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="651"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+          </script>
+        </div>
+      </div>
     </div>
 
-    <div class="graphic">
+    <p> The problem hasn’t been avalanches, blizzards or high winds. Veteran climbers and industry leaders blame having too many people on the mountain, in general, and too many inexperienced climbers, in particular. </p>
 
-      <iframe title="Cause of death in Himalayas (1950-2009)" aria-label="chart" id="datawrapper-chart-guUSb" src="https://datawrapper.dwcdn.net/guUSb/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="580"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-      </script>
+    <p> Fly-by-night adventure companies are taking up untrained climbers who pose a risk to everyone on the mountain. And the Nepalese government, hungry for every climbing dollar it can get, has issued more permits than Everest can safely handle, some experienced mountaineers say. </p>
 
+    <p> Add to that Everest’s inimitable appeal to a growing body of thrill-seekers the world over. And the fact that Nepal, one of Asia’s poorest nations and the site of most Everest climbs, has a long record of shoddy regulations, mismanagement and corruption. </p>
+
+    <p> The result is a crowded, unruly scene reminiscent of “Lord of the Flies” — at 29,000 feet. At that altitude, there is no room for error and altruism is put to the test. </p>
+
+<!-- Closing container for video stuff -->
+
+  </div>
+
+    <div class="video-container">
+      <div class="row">
+        <div class="col-md-7">
+          <video class="video" width="426" height="240" controls>
+            <source src="images/everestclimb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="col-md-5">
+          <p> To reach the summit, climbers shed every pound of gear they can and take with them just enough canisters of compressed oxygen to make it to the top and back down. It is hard to think straight that high up, climbers say, and a delay of even an hour or two can mean life or death. </p>
+
+          <p class="caption"> <a href="https://www.youtube.com/watch?v=NhBzhi9jPFs" target="_blank"> Video </a>: Climbers make the final push to the summit (Elia Saikaly) </p>
+
+        </div>
+      </div>
     </div>
 
-    <div class="graphic">
+    <br>
 
-      <iframe title="Mt. Everest deaths by nationality (2019)" aria-label="Bar Chart" id="datawrapper-chart-Jt8l3" src="https://datawrapper.dwcdn.net/Jt8l3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="208"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-      </script>
+<!-- Reopening container -->
 
+  <div id="container">
+
+    <p> According to Sherpas and climbers, some of the deaths this year were caused by people getting held up in the long lines on the last 1,000 feet or so of the climb, unable to get up and down fast enough to replenish their oxygen supply. Others were simply not fit enough to be on the mountain in the first place. </p>
+
+<!-- Story map-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="flourish-embed flourish-map" data-src="visualisation/7850536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+      </div>
     </div>
 
-    <div class="graphic">
+    <p> Some climbers did not even know how to put on a pair of crampons, clip-on spikes that increase traction on ice, Sherpas said. </p>
 
-      <div class="flourish-embed flourish-map" data-src="visualisation/7850536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<!--Pull quote-->
 
-      Note: I'm still playing around with Flourish and learning how to incorporate pop-ups, so this is nowhere close to finalized, but this is what my story map will look like (location-wise, five landmarks, markers with photos, etc.)
+    <br>
+    <p class="quote"> "You have to qualify to do the Ironman. But you don't have to qualify to climb the highest mountain in the world?" </p>
+    <p class="quote-attribution"> Alan Arnette, climber and Everest chronicler </p>
+    <br>
 
+<!-- End pull quote -->
+
+    <p> Nepal has no strict rules about who can climb Everest, and veteran climbers say that is a recipe for disaster. </p>
+
+    <p> “You have to qualify to do the Ironman,” said Alan Arnette, a prominent Everest chronicler and climber. “But you don’t have to qualify to climb the highest mountain in the world? What’s wrong with this picture?” </p>
+
+    <p> The last time 11 or more people died on Everest was in 2015, during an avalanche. </p>
+
+<!--Graphic on deaths by year-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <iframe title="Deaths on Mt. Everest by year (2009-2019)" aria-label="Interactive line chart" id="datawrapper-chart-HLfAY" src="https://datawrapper.dwcdn.net/HLfAY/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="328"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+          </script>
+        </div>
+      </div>
     </div>
+
+    <p> By some measures, the Everest machine has only gotten more out of control. </p>
+
+    <p> Last year, veteran climbers, insurance companies and news organizations exposed a far-reaching conspiracy by guides, helicopter companies and hospitals to bilk millions of dollars from insurance companies by evacuating trekkers with minor signs of altitude sickness. </p>
+
+    <p> Climbers complain of theft and heaps of trash on the mountain. And earlier this year, government investigators uncovered profound problems with some of the oxygen systems used by climbers. Climbers said cylinders were found to be leaking, exploding or being improperly filled on a black market. </p>
+
+<!-- Image of oxygen cylinders (image 2 of 4) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/oxygen.jpeg" alt="A pile of oxygen cylinders" width=110%>
+
+          <p class="caption"> Oxygen cylinders left abandoned at the top of Mt. Everest (Jeff Clapp)</p>
+        </div>
+      </div>
+    </div>
+
+
+    <p> But despite complaints about safety lapses, this year the Nepali government issued a record number of permits, 381, as part of a bigger push to commercialize the mountain. Climbers say the permit numbers have been going up steadily each year and that this year the traffic jams were heavier than ever. </p>
+
+    <p> “This is not going to improve,” said Lukas Furtenbach, a guide who recently relocated his climbers to the Chinese side of Everest because of the overcrowding in Nepal and the surge of inexperienced climbers. </p>
+
+    <p> “There’s a lot of corruption in the Nepali government,” he said. “They take whatever they can get.” </p>
+
+    <p> Nepali officials denied any wrongdoing and said the trekking companies were the ones responsible for safety on the mountain. </p>
+
+    <p> Danduraj Ghimire, the director general of Nepal’s department of tourism, said in an interview on Sunday that the large number of deaths this year was not related to crowds, but because there were fewer good weather days for climbers to safely summit. He said the government was not inclined to change the number of permits. </p>
+
+    <p> “If you really want to limit the number of climbers,” Mr. Ghimire said, “let’s just end all expeditions on our holy mountain." </p>
+
+    <p> To be sure, the race to the top is driven by the weather. May is the best time of the year to summit, but even then there are only a few days when it is clear enough and the winds are mild enough to make an attempt at the top. </p>
+
+<!-- Image of line of climbers (image 3 of 4) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/climbers.jpeg" alt="A line of climbers waiting to summit Mt. Everest" width= 110%;>
+
+          <p class="caption"> Climbers wait to ascend the Lhotse face of Mt. Everest. Over the years, more permits have been issued and the trek has become more crowded. (Simone Moro | National Geographic)</p>
+        </div>
+      </div>
+    </div>
+
+    <p> But one of the critical problems this year, veterans say, seems to be the sheer number of people trying to reach the summit at the same time. And since there is no government traffic cop high on the mountain, the task of deciding when groups get to attempt their final ascent is left up to mountaineering companies. </p>
+
+    <p> Climbers themselves, experienced or not, are often so driven to finish their quest that they may keep going even if they see the dangers escalating. </p>
+
+    <p> A few decades ago, the people climbing Everest were largely experienced mountaineers willing to pay a lot of money. But in recent years, longtime climbers say, lower-cost operators working out of small storefronts in Kathmandu, the capital, and even more expensive foreign companies that don’t emphasize safety have entered the market and offered to take just about anyone to the top. </p>
+
+    <p> Sometimes these trips go very wrong. </p>
+
+    <p> From interviews with several climbers, it seems that as the groups get closer to the summit, the pressures increase and some people lose their sense of decency. </p>
+
+<!--Graphic on 2019 deaths by nationality-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <iframe title="Mt. Everest deaths by nationality (2019)" aria-label="Bar Chart" id="datawrapper-chart-Jt8l3" src="https://datawrapper.dwcdn.net/Jt8l3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="269"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <p> Fatima Deryan, an experienced Lebanese mountaineer, was making her way to the summit recently when less experienced climbers started collapsing in front of her. Temperatures were dropping to -30 Celsius. Oxygen tanks were running low. And roughly 150 people were packed together, clipped to the same safety line. </p>
+
+    <p> “A lot of people were panicking, worrying about themselves — and nobody thinks about those who are collapsing,” Ms. Deryan said. </p>
+
+    <p> “It is a question of ethics,” she said. “We are all on oxygen. You figure out that if you help, you are going to die.” </p>
+
+    <p> She offered to help some of the sick people, she said, but then calculated she was beginning to endanger herself and kept going to the summit, which is currently measured at 29,029 feet. On the way back down, she had to fight her way again through the crowds. </p>
+
+    <p> “It was terrible,” she said. </p>
+
+    <p> Around the same time, Rizza Alee, an 18-year-old climber from Kashmir, a disputed territory between India and Pakistan, was making his way up the mountain. He said he was stunned by how little empathy people had for those who were struggling. </p>
+
+<!-- Image of crevasse crossing (image 4 of 4) -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/crevasse.jpg" alt="A hiker crosses a crevasse on a ladder">
+
+          <p class="caption"> A hiker crosses a crevasse in Khumbu Icefall, one of the most dangerous parts of the journey up Everest (Alan Arnette.</p>
+        </div>
+      </div>
+    </div>
+
+    <p> “I saw some people like they had no emotions,” he said. “I asked people for water and no one gave me any. People are really obsessed with the summit. They are ready to kill themselves for the summit.” </p>
+
+    <p> But Mr. Alee himself took some chances; he has a heart condition and says he “kind of lied” to his expedition company when they asked if he had any health issues. </p>
+
+    <p> Mr. Dohring, the American doctor, represents the other end of the spectrum. </p>
+
+    <p> At 62, he has climbed peaks all over the world. He read about explorers as a boy and said he had always wanted to get to the “one spot where you can stand higher than any place else on earth." </p>
+
+    <p> To prepare for Everest, he slept at home in a tent that simulated high-altitude conditions. His total Everest experience cost $70,000. </p>
+
+<!-- Sidebar with costs -->
+
+    <div class="card">
+      <div class="card-header"> Cost breakdown of climbing Everest </div>
+      <div class="card-body">
+        <p class="card-text">
+          <ul>
+            <li> <span class="card-item-beginning"> 2018 was the fourth warmest year, </span> behind only 2016, 2015 and 2017. Since the start of the 21st Century, every year has been hotter than the global average temperature recorded from 1981 to 2010. </li>
+
+            <br>
+
+            <li> <span class="card-item-beginning"> Glaciers have continued to melt </span> for the 30th year in a row. In 2018, approximately one meter of ice melted off the top of the average glacier. </li>
+
+            <br>
+
+            <li> <span class="card-item-beginning"> Sea levels rose for the seventh year in a row. </span> The annual mean sea level is the highest it’s been in 26 years. </li>
+
+            <br>
+
+            <li> <span class="card-item-beginning"> The global average carbon dioxide concentration at Earth’s surface is the highest ever recorded  </span> according to data that goes back 800,000 years. Carbon dioxide, methane and nitrous oxide released in the atmosphere continue to increase. </li>
+
+            <br>
+
+            <li> <span class="card-item-beginning"> Arctic air temperatures rose </span> at twice the rate of the rest of the Earth with the five past years’ Arctic temperatures surpassing records since 1900. </li>
+
+            <br>
+
+          </ul>
+
+        <p class="sidebar-attribution"> <a href="https://www.alanarnette.com/blog/2021/02/10/how-much-does-it-cost-to-climb-mount-everest-2021-edition/" target="_blank"> Alan Arnette </a> </p>
+
+        </p>
+      </div>
+    </div>
+    <br>
+
+<!-- End sidebar -->
+
+    <p> Still, there was only so much he could prepare for. Last month, when he hiked into base camp at Everest at an altitude of more than 17,000 feet, Mr. Dohring said he was overcome with awe. </p>
+
+    <p> “You look at a circle of mountain peaks above you and think, ‘What am I doing here?'" he said. </p>
+
+    <p> He pressed on. After long, cold days, he inched up a spiny trail to the summit early on Thursday and ran into crowds “aggressively jostling for pictures.” </p>
+
+    <p> He was so scared, he said, that he plunked down on the snow to keep from losing his balance and had his guide take a picture of him holding up a small sign that said, “Hi Mom Love You." </p>
+
+<!--Pull quote-->
+
+    <br>
+    <p class="quote"> "I was not prepared to see sick climbers <br> being dragged down the mountain by <br> Sherpas or the surreal experience of <br> finding dead bodies." </p>
+    <p class="quote-attribution"> Ed Dohring, American doctor who summited Everest </p>
+    <br>
+
+<!-- End pull quote -->
+
+    <p> On the way down, he passed two more dead bodies in their tents. </p>
+
+    <p> “I was not prepared to see sick climbers being dragged down the mountain by Sherpas or the surreal experience of finding dead bodies,” he said. </p>
+
+    <p> But on Sunday, he had made it out. He boarded a helicopter after reaching base camp and flew back to Kathmandu. </p>
+
+    <p> He counted his blisters at the Yak and Yeti Hotel, where he said he treated himself to a thick steak and cracked open a cold beer. “Everest Lager, of course,” he said. </p>
+
+<!-- End story -->
+
+<!-- Contributing line -->
+    <p class="contributing"> Kai Schultz, Jeffrey Gettleman and Mujib Mashal reported from New Delhi, and Bhadra Sharma from Kathmandu, Nepal. </p>
+
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
