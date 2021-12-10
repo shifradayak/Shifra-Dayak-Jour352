@@ -2,21 +2,24 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
+
+<!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- CSS stylesheet -->
+<!-- CSS stylesheet -->
   <link href="style.css" rel="stylesheet">
 
-  <!--Google fonts -->
+<!--Google fonts -->
+<!-- Playfair Display (Serif) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
+<!-- Source Sans Pro (Sans Serif) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -33,21 +36,20 @@
 
   <div class="hero-container">
     <img src="images/tophat.jpeg" class="hero-image" alt="Mt. Everest shrouded in clouds">
-    <div class="overlay">
-      <hr>
-      <div class="hero-hed"> A deadly journey </div>
-      <div class="hero-sub"> As hopeful summiters crowd <br> Everest, danger looms
+    <div class="row">
+      <div class="col-md-12 tophat-col">
+        <div class="overlay">
+          <div class="col-md-12">
+            <p class="banner-caption"> Banner image: Mt. Everest, the highest point on Earth (Barry Bishop | National Geographic)</p>
+          </div>
+          <hr>
+          <div class="hero-hed"> A deadly journey </div>
+          <div class="hero-sub"> As hopeful summiters crowd <br> Everest, danger looms
+          </div>
+          <hr>
+          <a href="#storystart"> <i class="bi bi-chevron-compact-down"> </i> </a>
+        </div>
       </div>
-      <br>
-      <hr>
-      <a href="#storystart"> <i class="bi bi-chevron-compact-down"> </i> </a>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <p class="banner-caption"> Banner image: Mt. Everest, the highest point on Earth (Barry Bishop | National Geographic)</p>
     </div>
   </div>
 
@@ -69,15 +71,11 @@
 
 <!-- Image of Ed Dohring (image 1 of 4) -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="images/eddohring.jpeg" alt="Mountaineer Ed Dohring stands on Mt. Everest in a blue snowsuit with a line of climbers behind him">
 
-        <p class="caption"> Arizonan mountaineer Ed Dohring poses on Mt. Everest after summitting in 2019 (Ed Dohring)</p>
-      </div>
-    </div>
-  </div>
+    <img src="images/eddohring.jpeg" alt="Mountaineer Ed Dohring stands on Mt. Everest in a blue snowsuit with a line of climbers behind him">
+
+    <p class="caption"> Arizonan mountaineer Ed Dohring poses on Mt. Everest after summitting in 2019 (Ed Dohring)</p>
+
 
 <!-- Story -->
 
@@ -93,12 +91,10 @@
 
 <!--Graphic on causes of death-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <iframe title="Causes of death in Himalayas (1950-2009)" aria-label="Pie Chart" id="datawrapper-chart-guUSb" src="https://datawrapper.dwcdn.net/guUSb/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="651"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <iframe title="Causes of death in Himalayas (1950-2009)" aria-label="Pie Chart" id="datawrapper-chart-guUSb" src="https://datawrapper.dwcdn.net/guUSb/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="651"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
       </div>
     </div>
 
@@ -106,46 +102,43 @@
 
     <p> Fly-by-night adventure companies are taking up untrained climbers who pose a risk to everyone on the mountain. And the Nepalese government, hungry for every climbing dollar it can get, has issued more permits than Everest can safely handle, some experienced mountaineers say. </p>
 
+<!--Pull quote-->
+
+    <br>
+    <p class="quote"> "The result is a crowded, unruly scene reminiscent of 'Lord of the Flies' <br> — at 29,000 feet." </p>
+    <p class="quote-attribution"></p>
+    <br>
+
+<!-- End pull quote -->
+
     <p> Add to that Everest’s inimitable appeal to a growing body of thrill-seekers the world over. And the fact that Nepal, one of Asia’s poorest nations and the site of most Everest climbs, has a long record of shoddy regulations, mismanagement and corruption. </p>
 
     <p> The result is a crowded, unruly scene reminiscent of “Lord of the Flies” — at 29,000 feet. At that altitude, there is no room for error and altruism is put to the test. </p>
 
-<!-- Closing container for video stuff -->
 
-  </div>
+<!-- Video -->
 
-    <div class="video-container">
-      <div class="row">
-        <div class="col-md-7">
-          <video class="video" width="426" height="240" controls>
-            <source src="images/everestclimb.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-5">
-          <p> To reach the summit, climbers shed every pound of gear they can and take with them just enough canisters of compressed oxygen to make it to the top and back down. It is hard to think straight that high up, climbers say, and a delay of even an hour or two can mean life or death. </p>
-
-          <p class="caption"> <a href="https://www.youtube.com/watch?v=NhBzhi9jPFs" target="_blank"> Video </a>: Climbers make the final push to the summit (Elia Saikaly) </p>
-
-        </div>
+    <div class="row">
+      <div class="col-md-8">
+        <video class="video" width="640" height="360" controls>
+          <source src="images/everestclimb.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p class="caption"> Video: Climbers make the final push to the summit (Elia Saikaly) </p>
+      </div>
+      <div class="col-md-3">
+        <p> <br> To reach the summit, climbers shed every pound of gear they can and take with them just enough canisters of compressed oxygen to make it to the top and back down. It is hard to think straight that high up, climbers say, and a delay of even an hour or two can mean life or death. </p>
       </div>
     </div>
 
-    <br>
-
-<!-- Reopening container -->
-
-  <div id="container">
 
     <p> According to Sherpas and climbers, some of the deaths this year were caused by people getting held up in the long lines on the last 1,000 feet or so of the climb, unable to get up and down fast enough to replenish their oxygen supply. Others were simply not fit enough to be on the mountain in the first place. </p>
 
 <!-- Story map-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <div class="flourish-embed flourish-map" data-src="visualisation/7850536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="flourish-embed flourish-map" data-src="visualisation/7850536"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
       </div>
     </div>
 
@@ -168,30 +161,26 @@
 
 <!--Graphic on deaths by year-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <iframe title="Deaths on Mt. Everest by year (2009-2019)" aria-label="Interactive line chart" id="datawrapper-chart-HLfAY" src="https://datawrapper.dwcdn.net/HLfAY/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="328"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <iframe title="Deaths on Mt. Everest by year (2009-2019)" aria-label="Interactive line chart" id="datawrapper-chart-HLfAY" src="https://datawrapper.dwcdn.net/HLfAY/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="328"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
       </div>
     </div>
 
     <p> By some measures, the Everest machine has only gotten more out of control. </p>
 
-    <p> Last year, veteran climbers, insurance companies and news organizations exposed a far-reaching conspiracy by guides, helicopter companies and hospitals to bilk millions of dollars from insurance companies by evacuating trekkers with minor signs of altitude sickness. </p>
 
-    <p> Climbers complain of theft and heaps of trash on the mountain. And earlier this year, government investigators uncovered profound problems with some of the oxygen systems used by climbers. Climbers said cylinders were found to be leaking, exploding or being improperly filled on a black market. </p>
+<!-- Image of oxygen cylinders (image 2 of 4) and also a little column thingy -->
 
-<!-- Image of oxygen cylinders (image 2 of 4) -->
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/oxygen.jpeg" alt="A pile of oxygen cylinders" width=110%>
-
-          <p class="caption"> Oxygen cylinders left abandoned at the top of Mt. Everest (Jeff Clapp)</p>
-        </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p> Last year, veteran climbers, insurance companies and news organizations exposed a far-reaching conspiracy by guides, helicopter companies and hospitals to bilk millions of dollars from insurance companies by evacuating trekkers with minor signs of altitude sickness. </p>
+        <p> Climbers complain of theft and heaps of trash on the mountain. And earlier this year, government investigators uncovered profound problems with some of the oxygen systems used by climbers. Climbers said cylinders were found to be leaking, exploding or being improperly filled on a black market. </p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/oxygen.jpeg" alt="A pile of oxygen cylinders" width=110%>
+        <p class="caption"> Oxygen cylinders left abandoned at the top of Mt. Everest (Jeff Clapp)</p>
       </div>
     </div>
 
@@ -210,17 +199,19 @@
 
     <p> To be sure, the race to the top is driven by the weather. May is the best time of the year to summit, but even then there are only a few days when it is clear enough and the winds are mild enough to make an attempt at the top. </p>
 
+<!-- Closing container for fullscreen image -->
+  </div>
+
 <!-- Image of line of climbers (image 3 of 4) -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/climbers.jpeg" alt="A line of climbers waiting to summit Mt. Everest" width= 110%;>
 
-          <p class="caption"> Climbers wait to ascend the Lhotse face of Mt. Everest. Over the years, more permits have been issued and the trek has become more crowded. (Simone Moro | National Geographic)</p>
-        </div>
-      </div>
-    </div>
+    <img src="images/climbers.jpeg" alt="A line of climbers waiting to summit Mt. Everest" width= 110%;>
+
+    <p class="special-caption"> Climbers wait to ascend the Lhotse face of Mt. Everest. Over the years, more permits have been issued and the trek has become more crowded. (Simone Moro | National Geographic)</p>
+
+<!-- Reopening container because we're back to the normal layout -->
+  <div id="container">
+
 
     <p> But one of the critical problems this year, veterans say, seems to be the sheer number of people trying to reach the summit at the same time. And since there is no government traffic cop high on the mountain, the task of deciding when groups get to attempt their final ascent is left up to mountaineering companies. </p>
 
@@ -234,12 +225,10 @@
 
 <!--Graphic on 2019 deaths by nationality-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <iframe title="Mt. Everest deaths by nationality (2019)" aria-label="Bar Chart" id="datawrapper-chart-Jt8l3" src="https://datawrapper.dwcdn.net/Jt8l3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="269"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
-        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <iframe title="Mt. Everest deaths by nationality (2019)" aria-label="Bar Chart" id="datawrapper-chart-Jt8l3" src="https://datawrapper.dwcdn.net/Jt8l3/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="269"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
       </div>
     </div>
 
@@ -257,15 +246,11 @@
 
 <!-- Image of crevasse crossing (image 4 of 4) -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/crevasse.jpg" alt="A hiker crosses a crevasse on a ladder">
 
-          <p class="caption"> A hiker crosses a crevasse in Khumbu Icefall, one of the most dangerous parts of the journey up Everest (Alan Arnette.</p>
-        </div>
-      </div>
-    </div>
+    <img src="images/crevasse.jpg" alt="A hiker crosses a crevasse on a ladder">
+
+    <p class="caption"> A hiker crosses a crevasse in Khumbu Icefall, one of the most dangerous parts of the journey up Everest (Alan Arnette) </p>
+
 
     <p> “I saw some people like they had no emotions,” he said. “I asked people for water and no one gave me any. People are really obsessed with the summit. They are ready to kill themselves for the summit.” </p>
 
@@ -326,15 +311,6 @@
 
     <p> He was so scared, he said, that he plunked down on the snow to keep from losing his balance and had his guide take a picture of him holding up a small sign that said, “Hi Mom Love You." </p>
 
-<!--Pull quote-->
-
-    <br>
-    <p class="quote"> "I was not prepared to see sick climbers <br> being dragged down the mountain by <br> Sherpas or the surreal experience of <br> finding dead bodies." </p>
-    <p class="quote-attribution"> Ed Dohring, American doctor who summited Everest </p>
-    <br>
-
-<!-- End pull quote -->
-
     <p> On the way down, he passed two more dead bodies in their tents. </p>
 
     <p> “I was not prepared to see sick climbers being dragged down the mountain by Sherpas or the surreal experience of finding dead bodies,” he said. </p>
@@ -350,8 +326,15 @@
 
   </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Footer -->
+    <br>
+    <footer class="footer mt-auto py-3">
+      <span class="text-black"><strong>Copyright ©2021 by Shifra Dayak <br> Philip Merrill College of Journalism</strong> </span>
+    </footer>
+    </body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

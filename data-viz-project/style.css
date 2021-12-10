@@ -1,5 +1,9 @@
 /*Styling for tophat*/
 
+.hero-container {
+  max-width: 100%;
+}
+
 .hero-image {
   max-width: 100%;
   opacity: .5;
@@ -9,7 +13,7 @@
 .overlay {
   position: absolute;
   width: 80%;
-  top: 30%;
+  top: 15%;
   left: 10%;
   margin: 0 auto;
   text-align: center;
@@ -52,7 +56,7 @@ hr {
   font-style: italic;
   margin: 0 auto;
   padding-bottom: 20px;
-  padding-top: 5px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -112,9 +116,9 @@ p {
 
 /*Styling for graphics*/
 
-.col-md {
+.col-md-12 {
   padding: 10px;
-  max-width: 90%;
+  max-width: 87%;
   text-align: center;
   margin: 0 auto;
 }
@@ -123,21 +127,23 @@ p {
 
 img {
   max-width: 100%;
-  display: block;
   margin: 0 auto;
 }
 
 
 /*Styling for video*/
 
-.video-container {
-  padding: 10px;
-  display: block;
-  max-width: 63%;
-  margin: 0 auto;
+.video {
+  max-width: 100%;
 }
 
-/*Styling for caption*/
+/*Styling for that one strange column of text*/
+
+.col-md-3 {
+  padding-left: 33px;
+}
+
+/*Styling for captions*/
 
 .caption {
   font-family: "Playfair Display", serif;
@@ -147,6 +153,16 @@ img {
   padding-bottom: 20px;
   padding-top: 5px;
   text-align: left;
+}
+
+.special-caption {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: center;
 }
 
 /*Styling for pull quote*/
@@ -214,3 +230,45 @@ img {
   font-style: italic;
   font-weight: bold;
 }
+
+/*Footer*/
+
+.footer {
+  background-color: #B6D0E2;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+
+/*Media queries*/
+
+/*Iphone X size
+@media screen and (max-width: 375px) {
+  .overlay {
+    top: 10%;
+  }
+  .hero-hed {
+    font-size: 1.5em;
+  }
+  .hero-sub {
+    font-size: 1em;
+  }
+  hr {
+    border: solid 1px;
+    height: 1px;
+  }
+  .bi {
+    font-size: 1em;
+  }
+  .banner-caption {
+    font-size: 0.5em;
+    padding-top: 25px;
+  }
+  .headline {
+    font-size: 1.5em;
+  }
+  .byline {
+    font-size: 1em;
+  }
+}
+*/
