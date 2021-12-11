@@ -137,7 +137,7 @@ img {
   max-width: 100%;
 }
 
-/*Styling for that one strange column of text*/
+/*Styling for that one strange column of text next to the video*/
 
 .col-md-3 {
   padding-left: 33px;
@@ -242,33 +242,66 @@ img {
 
 /*Media queries*/
 
-/*Iphone X size
-@media screen and (max-width: 375px) {
+/* iPad size */
+@media (max-width: 780px) {
   .overlay {
-    top: 10%;
+    top: 0%;
   }
   .hero-hed {
+    font-size: 2.5em;
+  }
+  .hero-sub {
+    font-size: 2em;
+  }
+  .bi {
+    font-size: 2.5em;
+  }
+  .headline {
+    font-size: 2em;
+  }
+  .video {
+    width: 426px;
+    height: 240px;
+  }
+  .quote {
     font-size: 1.5em;
+  }
+  .quote-attribution {
+    font-size: 1em;
+  }
+}
+
+/* iPhone size*/
+@media (max-width: 575px) {
+  .overlay {
+    top: -10%;
+  }
+  .hero-hed {
+    font-size: 2em;
   }
   .hero-sub {
     font-size: 1em;
   }
-  hr {
-    border: solid 1px;
-    height: 1px;
-  }
-  .bi {
-    font-size: 1em;
-  }
   .banner-caption {
     font-size: 0.5em;
-    padding-top: 25px;
+  }
+  .bi {
+    font-size: 2em;
   }
   .headline {
     font-size: 1.5em;
   }
-  .byline {
+  .col-xl-3 {
+    padding: 15px;
+  }
+  .video {
+    width: 426px;
+    height: 240px;
+  }
+  .quote {
     font-size: 1em;
   }
+  .quote-attribution {
+    font-size: 0.8em;
+  }
 }
-*/
